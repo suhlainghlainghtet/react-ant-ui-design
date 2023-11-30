@@ -1,0 +1,52 @@
+.LoginContainer {
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  width: 400px;
+  padding: 1rem 1.7rem;
+  padding-bottom: 2rem;
+}
+h2 {
+  margin-bottom: 1.5rem;
+}
+form {
+  margin-left: 1.5rem;
+}
+.inputGp {
+  margin-bottom: 1.7rem;
+}
+.inputGp label {
+  margin-bottom: 0.3rem;
+  display: block;
+}
+.inputGp input {
+  width: 343px;
+  border: 1px solid #e2dada;
+  padding: 0.6rem 1rem;
+  outline-color: #1677ff;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.btn {
+  width: 100%;
+  background-color: #1677ff;
+  border: none;
+  padding: 0.5rem;
+  color: #fff;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.inputFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.position {
+  position: absolute;
+  right: 1rem;
+  top: 0.5rem;
+  cursor: pointer;
+  font-size: 18px;
+}
